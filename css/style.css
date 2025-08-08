@@ -68,6 +68,7 @@ header .container {
     font-size: 1.8rem; /* 'rem' é uma unidade de medida relativa, boa para acessibilidade */
     font-weight: 900; /* O peso mais forte da fonte Montserrat */
     color: var(--cor-primaria);
+    
 }
 
 /* Remove o sublinhado padrão do link do logo */
@@ -102,7 +103,7 @@ nav ul li a:hover {
 /* Estilizando o botão de Contato de forma especial */
 .botao-contato {
     background-color: var(--cor-destaque);
-    color: white !important; /* !important para garantir que a cor branca seja aplicada */
+    color: white; /* !important para garantir que a cor branca seja aplicada */
     padding: 0.7rem 1.5rem;
     border-radius: 5px; /* Bordas levemente arredondadas */
     transition: background-color 0.3s ease;
