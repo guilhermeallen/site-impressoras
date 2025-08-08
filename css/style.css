@@ -72,7 +72,7 @@ header .container {
 }
 
 /* Remove o sublinhado padrão do link do logo */
-.logo a {
+a.logo {
     text-decoration: none;
 }
 
