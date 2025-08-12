@@ -718,3 +718,57 @@ nav ul li a:hover {
     margin-right: 0.75rem; /* Espaço entre o ícone e o texto */
     vertical-align: middle; /* O mais importante: alinha o ícone verticalmente com o meio do texto */
 }
+
+/* =================================
+   ESTILO DO BOTÃO FLUTUANTE DE WHATSAPP
+   ================================= */
+.botao-wpp {
+    position: fixed; /* O segredo para ele flutuar */
+    bottom: 25px;    /* Distância da parte de baixo */
+    right: 25px;     /* Distância da direita */
+    z-index: 100;    /* Garante que ele fique na frente de tudo */
+    
+    /* Estilos para deixar o ícone bonito */
+    background-color: #25D366; /* Cor oficial do WhatsApp */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Deixa o botão redondo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.botao-wpp:hover {
+    transform: scale(1.1); /* Efeito de crescimento ao passar o mouse */
+}
+
+.botao-wpp img {
+    width: 35px; /* Tamanho do ícone dentro do círculo */
+    height: 35px;
+}
+
+/* =================================
+   ESTILO DO CTA DA PÁGINA DE PRODUTOS
+   ================================= */
+.cta-produtos {
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 3rem; /* Adiciona um espaço para separar da grade de produtos */
+}
+
+.cta-produtos h2 {
+    font-family: var(--fonte-titulos);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-produtos p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.85);
+}
