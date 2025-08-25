@@ -677,8 +677,21 @@ nav ul li a:hover {
     color: var(--cor-primaria);
 }
 
+/* =================================
+   AJUSTE DE TAMANHO DA FOTO "SOBRE NÓS"
+   ================================= */
+
+/* Nova regra para centralizar a imagem no seu espaço */
+.sobre-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Regra modificada para a imagem */
 .sobre-imagem img {
     width: 100%;
+    max-width: 350px; /* <-- LIMITE MÁXIMO DO TAMANHO. AJUSTE ESTE VALOR! */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
